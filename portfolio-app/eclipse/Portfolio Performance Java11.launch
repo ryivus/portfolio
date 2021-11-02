@@ -16,8 +16,9 @@
     <booleanAttribute key="includeOptional" value="true"/>
     <stringAttribute key="location" value="${workspace_loc}/../runtime-name.abuchen.portfolio.product"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
-    <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11"/>
+    <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl de -consoleLog"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
     <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-XX:+IgnoreUnrecognizedVMOptions --add-modules=ALL-SYSTEM --illegal-access=permit -XX:+UseG1GC -XX:+UseStringDeduplication -Xms256m -Xmx768m -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts"/>
@@ -82,16 +83,46 @@
         <setEntry value="org.eclipse.e4.emf.xpath@default:default"/>
         <setEntry value="org.eclipse.e4.ui.bindings@default:default"/>
         <setEntry value="org.eclipse.e4.ui.css.core@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.css.swt.nl_de@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.css.swt.nl_es@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.css.swt.nl_fr@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.css.swt.nl_it@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.css.swt.nl_nl@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.css.swt.nl_pt@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.css.swt.theme.nl_de@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.css.swt.theme.nl_es@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.css.swt.theme.nl_fr@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.css.swt.theme.nl_it@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.css.swt.theme.nl_nl@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.css.swt.theme.nl_pt@default:false"/>
         <setEntry value="org.eclipse.e4.ui.css.swt.theme@default:default"/>
         <setEntry value="org.eclipse.e4.ui.css.swt@default:default"/>
         <setEntry value="org.eclipse.e4.ui.di@default:default"/>
         <setEntry value="org.eclipse.e4.ui.dialogs@default:default"/>
         <setEntry value="org.eclipse.e4.ui.model.workbench@default:default"/>
         <setEntry value="org.eclipse.e4.ui.services@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.swt.win32@default:false"/>
         <setEntry value="org.eclipse.e4.ui.widgets@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.addons.swt.nl_de@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.addons.swt.nl_es@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.addons.swt.nl_fr@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.addons.swt.nl_it@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.addons.swt.nl_nl@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.addons.swt.nl_pt@default:false"/>
         <setEntry value="org.eclipse.e4.ui.workbench.addons.swt@default:default"/>
-        <setEntry value="org.eclipse.e4.ui.workbench.renderers.swt.cocoa@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.renderers.swt.nl_de@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.renderers.swt.nl_es@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.renderers.swt.nl_fr@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.renderers.swt.nl_it@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.renderers.swt.nl_nl@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.renderers.swt.nl_pt@default:false"/>
         <setEntry value="org.eclipse.e4.ui.workbench.renderers.swt@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.swt.nl_de@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.swt.nl_es@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.swt.nl_fr@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.swt.nl_it@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.swt.nl_nl@default:false"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.swt.nl_pt@default:false"/>
         <setEntry value="org.eclipse.e4.ui.workbench.swt@default:default"/>
         <setEntry value="org.eclipse.e4.ui.workbench3@default:default"/>
         <setEntry value="org.eclipse.e4.ui.workbench@default:default"/>
@@ -113,7 +144,6 @@
         <setEntry value="org.eclipse.equinox.event@default:default"/>
         <setEntry value="org.eclipse.equinox.frameworkadmin.equinox@default:default"/>
         <setEntry value="org.eclipse.equinox.frameworkadmin@default:default"/>
-        <setEntry value="org.eclipse.equinox.launcher.cocoa.macosx.x86_64@default:false"/>
         <setEntry value="org.eclipse.equinox.launcher@default:default"/>
         <setEntry value="org.eclipse.equinox.p2.artifact.repository@default:default"/>
         <setEntry value="org.eclipse.equinox.p2.console@default:default"/>
@@ -131,7 +161,6 @@
         <setEntry value="org.eclipse.equinox.p2.transport.ecf@default:default"/>
         <setEntry value="org.eclipse.equinox.preferences@default:default"/>
         <setEntry value="org.eclipse.equinox.registry@default:default"/>
-        <setEntry value="org.eclipse.equinox.security.macosx@default:false"/>
         <setEntry value="org.eclipse.equinox.security@default:default"/>
         <setEntry value="org.eclipse.equinox.simpleconfigurator.manipulator@default:default"/>
         <setEntry value="org.eclipse.equinox.simpleconfigurator@1:true"/>
@@ -144,7 +173,14 @@
         <setEntry value="org.eclipse.osgi.services@default:default"/>
         <setEntry value="org.eclipse.osgi.util@default:default"/>
         <setEntry value="org.eclipse.osgi@-1:true"/>
-        <setEntry value="org.eclipse.swt.cocoa.macosx.x86_64@default:false"/>
+        <setEntry value="org.eclipse.swt.browser.chromium.win32.win32.x86_64@default:false"/>
+        <setEntry value="org.eclipse.swt.nl_de@default:false"/>
+        <setEntry value="org.eclipse.swt.nl_es@default:false"/>
+        <setEntry value="org.eclipse.swt.nl_fr@default:false"/>
+        <setEntry value="org.eclipse.swt.nl_it@default:false"/>
+        <setEntry value="org.eclipse.swt.nl_nl@default:false"/>
+        <setEntry value="org.eclipse.swt.nl_pt@default:false"/>
+        <setEntry value="org.eclipse.swt.win32.win32.x86_64@default:false"/>
         <setEntry value="org.eclipse.swt@default:default"/>
         <setEntry value="org.eclipse.ui.forms@default:default"/>
         <setEntry value="org.eclipse.ui.themes@default:default"/>
